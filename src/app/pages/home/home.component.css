@@ -10,35 +10,37 @@
     width: 100%;
     height: 100%;
   }
+  #home-page-landing{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+}
   #landing-left{
     display:flex;
     justify-content: center;
     align-items: center;
   }
+  #landing-left-content{
+    text-align: center ;
+    padding: 1em 1em 1em 4em;
+  }
   .hand-written-title{
     color:rgb(30, 104, 30);
   }
-  .under-title{
-    color:rgb(49, 49, 49);
-    font-weight: 500;
-  }
-  #landing-left-content{
-    text-align: left ;
-    padding: 1em 1em 1em 7em;
-    
-  }
   .hand-written-title {
-    font-size: 10rem;
+    font-size: 9em;
     margin-bottom: 0.5em;
   }
-  #home-page-landing{
-      width: 100%;
-      height: 100%;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 100%;
+  .under-title{
+    color:rgb(41, 41, 41);
+    max-width: 15em;
+    font-weight: 700;
+    line-height: 1em;
   }
+
   #landing-left-content button{
-    font-size: 1em;
-    padding: 1em 10em 1em 10em;
+    font-size: 1.5em;
+    padding: 1em 4em 1em 4em;
   }

@@ -6,10 +6,13 @@
     <div id="home-page-landing">
        <div id="landing-left">
            <div id="landing-left-content">
-               <div class="hand-written-title">Село</div>
-               <div class="mat-headline under-title">Място за любителите на селският начин на живот и свободна търговия</div>
-               <button mat-raised-button color="accent">ВХОД</button>
+               <div class="hand-written-title" [@fadeSlideFromTop]>Село</div>
+               <div class="mat-headline under-title" [@fadeSlideFromBottomDelay1]>Място за любителите на селският начин на живот и свободна търговия</div>
+               <button (click)="enterClicked()" mat-raised-button color="accent" [@scaleUpDelay2]>ВХОД</button>
            </div>
+       </div>
+       <div>
+
        </div>
     </div>
 </div>

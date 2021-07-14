@@ -8,17 +8,22 @@ import { environment } from 'src/environments/environment';
 import { HomeComponent } from './pages/home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import { AuthenticatorComponent } from './tools/authenticator/authenticator.component'
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AuthenticatorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatBottomSheetModule
   ],
   providers: [],
   bootstrap: [AppComponent]
