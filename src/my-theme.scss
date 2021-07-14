@@ -1,0 +1,27 @@
+@import "~@angular/material/theming";
+
+$config: mat-typography-config(
+  $font-family: 'Pacifico',
+);
+
+.hand-written-header {
+  font-family: mat-font-family($config);
+}
+
+.hand-written-title {
+  @include mat-typography-level-to-styles($config, title);
+}
+
+
+$my-theme-primary: mat-palette($mat-light-green, 700);
+$my-theme-accent: mat-palette($mat-orange, 800);
+$my-theme-warn: mat-palette($mat-red);
+
+$my-theme: mat-light-theme(
+  $my-theme-primary,
+  $my-theme-accent,
+  $my-theme-warn
+);
+
+@include angular-material-theme($my-theme);
+

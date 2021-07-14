@@ -1,0 +1,44 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #home-page{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  #landing-left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hand-written-title{
+    color:rgb(30, 104, 30);
+  }
+  .under-title{
+    color:rgb(49, 49, 49);
+    font-weight: 500;
+  }
+  #landing-left-content{
+    text-align: left ;
+    padding: 1em 1em 1em 7em;
+    
+  }
+  .hand-written-title {
+    font-size: 10rem;
+    margin-bottom: 0.5em;
+  }
+  #home-page-landing{
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100%;
+  }
+  #landing-left-content button{
+    font-size: 1em;
+    padding: 1em 10em 1em 10em;
+  }
